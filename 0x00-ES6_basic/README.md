@@ -1,0 +1,1 @@
+# ES6, also known as ECMAScript 2015, is the sixth major version of the ECMAScript standard. It is a scripting language specification that JavaScript is based on. ES6 introduced several new features and improvements to JavaScript, making it more powerful and efficient.

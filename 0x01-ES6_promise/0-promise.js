@@ -4,7 +4,7 @@ function MyAPI() {
 
 MyAPI.prototype.getResponseFromAPI = function() {
   return new Promise((resolve, reject) => {
-    // Simulating an asynchronous API call
+    // Simulate an asynchronous API call
     setTimeout(() => {
       const response = "Response from API";
       resolve(response);
@@ -14,13 +14,5 @@ MyAPI.prototype.getResponseFromAPI = function() {
   });
 };
 
-// Usage example
-const myApi = new MyAPI();
-myApi.getResponseFromAPI()
-  .then(response => {
-    console.log(response); // Output: "Response from API"
-  })
-  .catch(error => {
-    console.error(error); // Output: Error message in case of rejection
-  });
+export default MyAPI;
 
